@@ -15,8 +15,9 @@ body {
     width: 100%;
     height: 500px;
     filter: grayscale(1);
-    opacity: 0.75;
+    opacity: 0.7;
     border-bottom: solid;
+    border-color: rgb(173, 171, 171);
 }
 
 .bio-container {
@@ -35,8 +36,8 @@ body {
     height: 100px;
     border-radius: 60px;
     border: solid;
-    border-width: 6px;
-    border-color: rgb(188, 189, 190);
+    border-width: 8px;
+    border-color: rgb(188, 189, 190, 0.65);
 }
 
 
@@ -46,8 +47,8 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: Roboto;
-    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
     font-weight: bold;
 }
 
@@ -63,6 +64,53 @@ body {
     text-align: center;
     font-size: 18px;
     margin-top: 2px;
+}
 
+
+.bar-container {
+    display: flex;
+    flex-flow: row nowrap;
+    border-bottom: solid;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.linkedin-image {
+    height: 50px;
+    cursor: pointer;
+}
+
+.github-image {
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.linkedin-button { 
+    border: none;
+    background-color: white;
+}
+.github-button {
+    border: none;
+    background-color: white;
+}
+
+.about-tab {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.experience-tab {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+}
+
+.projects-tab {
+    cursor: pointer;
+    border: none;
+    background-color: white;
 }
 
